@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Gestor_CAPSA</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="configuracion">Configuración</string>
+    <string name="cuidadores_activos">Cuidadores activos</string>
+    <string name="citas_pendientes">Citas pendientes</string>
+    <string name="notificaciones_recientes">Notificaciones recientes</string>
+    <string name="servicios_completados">Servicios completados</string>
+    <string name="mapa">Mapa</string>
+    <string name="mapa1">Mapa</string>
+    <string name="cuidadores">Cuidadores</string>
+    <string name="cuidadores1">Cuidadores</string>
+    <string name="citas">Citas</string>
+    <string name="citas1">Citas</string>
+    <string name="historial">Historial</string>
+    <string name="historial1">Historial</string>
+    <string name="panel_del_administrador">Panel del administrador</string>
+</resources>
