@@ -5,7 +5,6 @@
     android:background="#E1E1E1"
     tools:context=".MainActivity">
 
-    <!-- Encabezado -->
     <LinearLayout
         android:id="@+id/header"
         android:layout_width="match_parent"
@@ -14,7 +13,6 @@
         android:background="#4A90E2"
         android:padding="16dp">
 
-        <!-- Botón de notificaciones -->
         <ImageButton
             android:id="@+id/btn_notifications"
             android:layout_width="40dp"
@@ -23,14 +21,11 @@
             android:background="@drawable/ic_notificaciones"
             android:contentDescription="@string/notificaciones"
             tools:ignore="ImageContrastCheck,TouchTargetSizeCheck" />
-
-        <!-- Espacio vacío para alinear -->
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1" />
 
-        <!-- Icono engrane -->
         <ImageButton
             android:id="@+id/btn_settings"
             android:layout_width="40dp"
@@ -40,7 +35,6 @@
             android:contentDescription="@string/configuracion"
             tools:ignore="ImageContrastCheck,TouchTargetSizeCheck" />
     </LinearLayout>
-    <!-- Título del panel -->
     <TextView
         android:id="@+id/tv_title"
         android:layout_width="wrap_content"
@@ -53,7 +47,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         tools:ignore="VisualLintOverlap" />
-    <!-- Panel de tarjetas -->
+
     <GridLayout
         android:id="@+id/panel_admin"
         android:layout_width="match_parent"
@@ -64,7 +58,6 @@
         android:padding="16dp"
         android:rowCount="2">
 
-        <!-- Tarjeta 1 -->
         <Button
             android:id="@+id/btn_active_caregivers"
             android:layout_width="0dp"
@@ -79,7 +72,6 @@
             android:textSize="16sp"
             tools:ignore="VisualLintButtonSize" />
 
-        <!-- Tarjeta 2 -->
         <Button
             android:id="@+id/btn_pending_appointments"
             android:layout_width="0dp"
@@ -94,7 +86,6 @@
             android:textSize="16sp"
             tools:ignore="VisualLintButtonSize" />
 
-        <!-- Tarjeta 3 -->
         <Button
             android:id="@+id/btn_recent_notifications"
             android:layout_width="0dp"
@@ -109,7 +100,6 @@
             android:textSize="16sp"
             tools:ignore="VisualLintButtonSize" />
 
-        <!-- Tarjeta 4 -->
         <Button
             android:id="@+id/btn_completed_services"
             android:layout_width="0dp"
@@ -125,7 +115,6 @@
             tools:ignore="VisualLintButtonSize" />
     </GridLayout>
 
-    <!-- Botones inferiores -->
     <LinearLayout
         android:id="@+id/bottom_buttons"
         android:layout_width="match_parent"
@@ -136,8 +125,6 @@
         android:gravity="center"
         android:padding="16dp"
         tools:ignore="DisableBaselineAlignment">
-
-        <!-- Botón Mapa -->
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -164,7 +151,6 @@
                 android:layout_marginTop="4dp" />
         </LinearLayout>
 
-        <!-- Botón Cuidadores -->
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -190,7 +176,6 @@
                 android:layout_marginTop="4dp" />
         </LinearLayout>
 
-        <!-- Botón Citas -->
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -216,7 +201,6 @@
                 android:layout_marginTop="4dp" />
         </LinearLayout>
 
-        <!-- Botón Historial -->
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
