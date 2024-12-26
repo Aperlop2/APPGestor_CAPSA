@@ -22,9 +22,14 @@
     <string name="cambiar_tema">cambiar tema</string>
     <string name="regresar">Regresar</string>
     <string name="cuidadores_disponibles">Cuidadores disponibles</string>
-    <string name="n_mero_de_cuidadores_activos">Número de cuidadores activos:</string>
-    <string name="numero_de_cuidadores_activos">numero de cuidadores activos</string>
     <string name="nombre">Nombre:</string>
     <string name="estado">Estado:</string>
     <string name="ubicacion">Ubicación:</string>
+    <string name="numero_de_cuidadores_activos">Numero de cuidadores activos:</string>
+    <string name="nombre_nombre_cuidador">Nombre: [Nombre Cuidador]</string>
+    <string name="estado_estado">Estado: [Estado]</string>
+    <string name="ubicacion_ubicacion">Ubicación: [Ubicación]</string>
+    <string name="especialidad_especialidad">Especialidad: [Especialidad]</string>
+    <string name="evidencia_placeholder">Evidencia del cuidador</string>
+
 </resources>
