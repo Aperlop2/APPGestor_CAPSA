@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1E1E1"
+    tools:ignore="VisualLintTextFieldSize">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4A90E2"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/regresar"
+            android:contentDescription="@string/regresar"
+            tools:ignore="ImageContrastCheck,TouchTargetSizeCheck" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/btn_available_caregivers"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/usuario_disponible"
+            android:contentDescription="@string/cuidadores_disponibles"
+            tools:ignore="ImageContrastCheck,TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cuidadores_activos"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_below="@id/header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        tools:ignore="VisualLintOverlap" />
+
+    <TextView
+        android:id="@+id/tv_total_cuidadores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numero_de_cuidadores_activos"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp" />
+
+    <SearchView
+        android:id="@+id/search_caregivers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="295dp"
+        android:background="#FFFFFF"
+        android:iconifiedByDefault="false"
+        android:queryHint="Buscar cuidador activo" />
+
+</RelativeLayout>
