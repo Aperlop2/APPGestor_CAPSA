@@ -1,6 +1,6 @@
 <resources>
     <style name="Base.Theme.Gestor_CAPSA" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Elimina cualquier definición de estilo global para botones -->
+        <!-- Elimina cualquier definición de estilo global para  -->
     </style>
 
     <style name="Theme.Gestor_CAPSA" parent="Base.Theme.Gestor_CAPSA" />
