@@ -31,5 +31,14 @@
     <string name="ubicacion_ubicacion">Ubicación: [Ubicación]</string>
     <string name="especialidad_especialidad">Especialidad: [Especialidad]</string>
     <string name="evidencia_placeholder">Evidencia del cuidador</string>
+    <string name="citas_pendientes_cuidador">Citas pendientes</string>
+    <string name="total">Total:</string>
+    <string name="cita">Cita:</string>
+    <string name="cuidador">Cuidador:</string>
+    <string name="fecha">Fecha:</string>
+    <string name="ubicacion_cuidador">Ubicación:</string>
+    <string name="inicio">Inicio</string>
+    <string name="calendario">Calendario</string>
+    <string name="tareas">Tareas</string>
 
 </resources>
