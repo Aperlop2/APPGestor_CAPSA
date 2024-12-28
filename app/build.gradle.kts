@@ -36,7 +36,7 @@ android {
 }
 
 dependencies {
-
+    implementation("androidx.activity:activity:1.9.3")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
