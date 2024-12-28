@@ -83,8 +83,9 @@
             <ImageView
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:contentDescription="@string/cuidadores_activos1"
-                android:src="@drawable/ic_cuidadores_activos" />
+                android:contentDescription="cuidadores_activos_boton"
+                android:src="@drawable/ic_cuidadores_activos"
+                tools:ignore="HardcodedText" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -110,9 +111,9 @@
             <ImageView
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:contentDescription="@string/citas_pendientes1"
+                android:contentDescription="citas_pendientes_boton"
                 android:src="@drawable/ic_citas_pendientes"
-                tools:ignore="ImageContrastCheck" />
+                tools:ignore="HardcodedText,ImageContrastCheck" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -139,9 +140,9 @@
             <ImageView
                 android:layout_width="99dp"
                 android:layout_height="46dp"
-                android:contentDescription="@string/notificaciones_recientes1"
+                android:contentDescription="notificaciones_boton"
                 android:src="@drawable/ic_notificaciones_recientes"
-                tools:ignore="ImageContrastCheck" />
+                tools:ignore="HardcodedText,ImageContrastCheck" />
 
             <TextView
                 android:layout_width="123dp"
@@ -170,9 +171,9 @@
             <ImageView
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:contentDescription="@string/servicios_completados1"
+                android:contentDescription="servicios_completados_boton"
                 android:src="@drawable/ic_servicios_completados"
-                tools:ignore="ImageContrastCheck" />
+                tools:ignore="HardcodedText,ImageContrastCheck" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -220,9 +221,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:text="@string/mapa1"
+                android:text="boton_mapa"
                 android:textColor="#000000"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
         </LinearLayout>
 
         <LinearLayout
@@ -245,9 +247,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:text="@string/cuidadores1"
+                android:text="boton_cuidadores"
                 android:textColor="#000000"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
         </LinearLayout>
 
         <LinearLayout
@@ -270,15 +273,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:text="@string/citas1"
+                android:text="boton_citas"
                 android:textColor="#000000"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical"
             android:padding="8dp"
@@ -296,9 +299,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:text="@string/historial1"
+                android:text="boton_historial"
                 android:textColor="#000000"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
         </LinearLayout>
 
     </LinearLayout>

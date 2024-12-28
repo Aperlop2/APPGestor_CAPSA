@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "539649906949",
+    "project_id": "gestor-capsa",
+    "storage_bucket": "gestor-capsa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539649906949:android:585518a0ac42f151903f6c",
+        "android_client_info": {
+          "package_name": "com.example.gestor_capsa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnyQ-2xgosn1IUwXK8YbIIgdxZ80tZ9eo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
